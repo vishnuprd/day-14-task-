@@ -1,0 +1,70 @@
+/* Style for the container */
+.container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the calculator */
+  .calculator {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Style for the title */
+  #title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the description */
+  #description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the result input */
+  #result {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the buttons container using flexbox */
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style for the buttons */
+  button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Style for the special buttons */
+  #clear,
+  #Arrowleft,
+  #bot {
+    background-color: #ccc;
+  }
+  
+  /* Style for the equal button */
+  #equal {
+    background-color: #28a745;
+  }
+  
+  /* Change button color on hover */
+  button:hover {
+    background-color: #eee;
+  }
+  
